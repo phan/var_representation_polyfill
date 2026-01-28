@@ -1,22 +1,20 @@
 var_representation_polyfill
 =============================
 
-[![Build Status](https://github.com/TysonAndre/var_representation_polyfill/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/TysonAndre/var_representation_polyfill/actions/workflows/main.yml?query=branch%3Amain)
-[![License](https://img.shields.io/github/license/TysonAndre/var_representation_polyfill.svg)](https://github.com/TysonAndre/var_representation_polyfill/blob/main/LICENSE)
-[![Latest Stable Version](https://img.shields.io/github/v/release/TysonAndre/var_representation_polyfill.svg)](https://packagist.org/packages/TysonAndre/var_representation_polyfill)
-
-[var_representation_polyfill](https://github.com/TysonAndre/var_representation_polyfill) is a polyfill for https://pecl.php.net/var_representation
+[var_representation_polyfill](https://github.com/phan/var_representation_polyfill) is a polyfill for https://pecl.php.net/var_representation
 
 This provides a polyfill for the function `var_representation(mixed $value, int $flags = 0): string`, which converts a
 variable to a string in a way that fixes the shortcomings of `var_export()`
 
 See [the var_representation PECL documentation](https://github.com/TysonAndre/var_representation) for more details
 
+Forked from https://github.com/TysonAndre/var_representation_polyfill for PHP 8.5 support.
+
 Installation
 ------------
 
 ```
-composer require tysonandre/var_representation_polyfill
+composer require phan/var_representation_polyfill
 ```
 
 Usage

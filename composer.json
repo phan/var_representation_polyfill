@@ -1,5 +1,5 @@
 {
-    "name": "tysonandre/var_representation_polyfill",
+    "name": "phan/var_representation_polyfill",
     "description": "Polyfill for var_representation: convert a variable to a string in a way that fixes the shortcomings of var_export",
     "keywords": ["var_export", "var_representation"],
     "type": "library",
